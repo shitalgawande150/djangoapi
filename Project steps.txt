@@ -1,0 +1,10 @@
+1.git bash< mkdir< ls< python -m venv venv< source venv/Scripts/activate
+2. pip install django
+3. pip install djangorestframework
+4. django-admin startproject djangoapi
+5. cd djangoapi
+6. add rest_framework in settings.py
+7. python manage.py makemigrations< python manage.py migrate
+8. python manage.py runserver< ctrl C
+9. python manage.py startapp cours
+10. python manage.py createsuperuser
