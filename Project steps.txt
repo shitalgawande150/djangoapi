@@ -8,3 +8,21 @@
 8. python manage.py runserver< ctrl C
 9. python manage.py startapp cours
 10. python manage.py createsuperuser
+11. git config --global user.name -> github username
+12. git config --global user.email "shitalgawande150@gmail.com" -> github mail
+13.  git config --global push.default matching
+14. git config --global alias.co checkout
+15. git init -> initialize repo
+16. git add .
+17. git commit -am "Initial commit"
+18. mkdir ~/.ssh
+19. cd !/.ssh
+20. ls
+21. ssh-keygen.exe
+22. ls
+23. cat id_rsa.pub
+24. go to github -> settings -> sshand gpg keys -> add ney ssh key -> put key
+25. create repo inside git
+26. git remote add origin https://github.com/shitalgawande150/djangoapi.git
+27. git branch -M main
+28 .git push -u origin main
